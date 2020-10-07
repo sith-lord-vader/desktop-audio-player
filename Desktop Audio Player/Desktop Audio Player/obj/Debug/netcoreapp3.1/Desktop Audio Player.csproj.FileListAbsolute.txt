@@ -1,0 +1,19 @@
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\Desktop Audio Player.exe
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\Desktop Audio Player.deps.json
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\Desktop Audio Player.runtimeconfig.json
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\Desktop Audio Player.runtimeconfig.dev.json
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\Desktop Audio Player.dll
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\Desktop Audio Player.pdb
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.csprojAssemblyReference.cache
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player_MarkupCompile.cache
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player_MarkupCompile.lref
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.g.resources
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.AssemblyInfoInputs.cache
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.AssemblyInfo.cs
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.dll
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.pdb
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.genruntimeconfig.cache
