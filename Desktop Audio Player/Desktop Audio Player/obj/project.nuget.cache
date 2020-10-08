@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "XAw50Jkm2Khdk+vqB0lQHhH7DZwBUp6do8jKTKsXpvn1V/bAmKK2I9Hu3oBz/WuCTVgTpejrbQfnU1IMTCqMVA==",
+  "dgSpecHash": "dAbJ6m2SYY+EnBLq2zoWBGSp3e34XjmGzPWCyjTlwZolbD6I7ThsmAaEaf5b/bVBl9KsTys676t/M1reYJ08bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Abhishek Adhikari\\source\\repos\\abhishekadhikari23\\desktop-audio-player\\Desktop Audio Player\\Desktop Audio Player\\Desktop Audio Player.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'FontAwesome.WPF 4.7.0.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "FontAwesome.WPF",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

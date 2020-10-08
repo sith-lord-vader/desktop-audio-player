@@ -53,6 +53,9 @@ namespace Desktop_Audio_Player
         private void BT_Click_Stop(object sender, RoutedEventArgs e)
         {
             mediaPlayer.Stop();
+            filename = "";
+            File_Name.Text = filename;
+            mediaPlayer.Close();
         }
     }
 }

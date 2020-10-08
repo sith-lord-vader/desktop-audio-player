@@ -4,8 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Desktop_Audio_Player"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
         mc:Ignorable="d"
-        Title="Sairyö No Audio Player" Height="450" Width="800" WindowState="Maximized" WindowStyle="SingleBorderWindow" Background="Black">
+        Title="Sairyö No Audio Player" Height="300" Width="700" WindowState="Normal" WindowStyle="None" Background="Black" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
             <TextBlock Foreground="White" Text="File Name :" FontSize="22"/>
@@ -13,9 +14,15 @@
             <Button Content="Open" Click="BT_Click_Open" Margin="10,0,0,0" Padding="10,0,10,0"/>
         </StackPanel>
         <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center">
-            <Button FontSize="22" Content="Play" Width="100" Margin="10" Click="BT_Click_Play"/>
-            <Button FontSize="22" Content="Pause" Width="100" Margin="10" Click="BT_Click_Pause"/>
-            <Button FontSize="22" Content="Stop" Width="100" Margin="10" Click="BT_Click_Stop"/>
+            <Button FontSize="22" Width="100" Margin="10" Click="BT_Click_Play">
+                <fa:ImageAwesome Icon="Play" Width="22"/>
+            </Button>
+            <Button FontSize="22" Width="100" Margin="10" Click="BT_Click_Pause">
+                <fa:ImageAwesome Icon="Pause" Width="22"/>
+            </Button>
+            <Button FontSize="22" Width="100" Margin="10" Click="BT_Click_Stop">
+                <fa:ImageAwesome Icon="Stop" Width="22"/>
+            </Button>
         </StackPanel>
     </Grid>
 </Window>
