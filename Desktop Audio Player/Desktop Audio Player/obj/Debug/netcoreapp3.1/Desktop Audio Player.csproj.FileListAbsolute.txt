@@ -13,7 +13,6 @@ C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\
 C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.g.resources
 C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.AssemblyInfoInputs.cache
 C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.AssemblyInfo.cs
-C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.csproj.CoreCompileInputs.cache
 C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.dll
 C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.pdb
 C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.genruntimeconfig.cache
@@ -22,3 +21,7 @@ C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\
 C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
 C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
 C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\taglib-sharp.dll
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\AngleSharp.dll
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\YoutubeExplode.dll

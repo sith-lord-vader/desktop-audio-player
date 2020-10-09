@@ -4,19 +4,41 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Desktop_Audio_Player"
-        xmlns:fa="http://schemas.fontawesome.io/icons/"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"     
         mc:Ignorable="d"
         Title="Sairyö No Audio Player" Height="300" Width="700" WindowState="Normal" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/sairyo_audio_player.png">
     <Grid>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right">
+            <Button Style="{DynamicResource MaterialDesignToolButton}" FontSize="15" Click="BT_Click_Win_Min" Margin="2">
+                <materialDesign:PackIcon Kind="WindowMinimize" Height="15" Width="15" Foreground="LightGray"/>
+            </Button>
+            <Button Style="{DynamicResource MaterialDesignToolButton}" FontSize="15" Click="BT_Click_Win_Close" Margin="2,2,6,2">
+                <materialDesign:PackIcon Kind="WindowClose" Height="15" Width="15" Foreground="LightGray"/>
+            </Button>
+        </StackPanel>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
             <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0">
                 <TextBlock Style="{DynamicResource MaterialDesignHeadline2TextBlock}" Text="Sairyö No Player" TextAlignment="Center" Margin="0,0,0,10"/>
                 <materialDesign:Card x:Name="file_search" Padding="10,5,10,2" Visibility="Hidden">
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
-                        <TextBlock Foreground="White" Text="File Name :" FontSize="22"/>
+                        <TextBlock Foreground="White" Text="File Name      :" FontSize="22"/>
                         <TextBox x:Name="File_Name" FontSize="22" Width="260" Margin="10,0,0,0"/>
                         <Button x:Name="open_button" Content="Open" Foreground="white"  Click="BT_Click_Open" Margin="10,0,0,0" Padding="10,0,10,0">
+                            <Button.Background>
+                                <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
+                                    <GradientStop Color="#12c2e9" Offset="0.0"/>
+                                    <GradientStop Color="#c471ed" Offset="0.5"/>
+                                    <GradientStop Color="#f64f59" Offset="1.0"/>
+                                </LinearGradientBrush>
+                            </Button.Background>
+                        </Button>
+                    </StackPanel>
+                </materialDesign:Card>
+                <materialDesign:Card x:Name="youtube_search" Padding="10,5,10,2" Visibility="Hidden">
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Foreground="White" Text="YouTube URL :" FontSize="22"/>
+                        <TextBox x:Name="url_youtube" FontSize="22" Width="260" Margin="10,0,0,0"/>
+                        <Button x:Name="open_button_youtube" Content="Start" Foreground="white"  Click="BT_Click_Open_Youtube" Margin="10,0,0,0" Padding="10,0,10,0">
                             <Button.Background>
                                 <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                     <GradientStop Color="#12c2e9" Offset="0.0"/>
@@ -67,6 +89,16 @@
                                 <Slider Width="70" x:Name="slider_volume" Value="10" Style="{DynamicResource MaterialDesignSlider}" Foreground="#AEEA00" IsMoveToPointEnabled="True"/>
                             </StackPanel>
                         </Grid>
+                    </StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center">
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <TextBlock x:Name="song_title_xaml" Text="Song Titleasdasdsaddsa" TextAlignment="Center" FontWeight="ExtraBold" FontSize="20" FontFamily="Ink Free" Width="200"></TextBlock>
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                <TextBlock x:Name="song_artist_xaml" Text="Album Artist" TextAlignment="Center" FontWeight="Bold"></TextBlock>
+                                <TextBlock Text=" - " TextAlignment="Center" FontWeight="Bold"></TextBlock>
+                                <TextBlock x:Name="song_album_xaml" Text="Song Album" TextAlignment="Center" FontWeight="Bold"></TextBlock>
+                            </StackPanel>
+                        </StackPanel>
                     </StackPanel>
                 </Grid>
             </StackPanel>

@@ -38,13 +38,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "FontAwesome.WPF": {
-              "target": "Package",
-              "version": "[4.7.0.9, )"
-            },
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[3.2.0, )"
+            },
+            "YoutubeExplode": {
+              "target": "Package",
+              "version": "[5.1.6, )"
+            },
+            "taglib-sharp-netstandard2.0": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [

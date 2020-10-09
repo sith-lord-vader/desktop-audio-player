@@ -11,11 +11,14 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Desktop Audio Player")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Sairyö No Developers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("The Best Audio Player currently available in the market with this sweet yet minim" +
+    "al UI.\r\n\r\nDon\'t waste time reading this. Start using this product and enjoy your" +
+    " day!!!")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Desktop Audio Player")]
+[assembly: System.Reflection.AssemblyProductAttribute("Sairyö No Player")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Desktop Audio Player")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

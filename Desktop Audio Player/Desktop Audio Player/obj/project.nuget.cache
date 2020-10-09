@@ -1,23 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "NJw9RkAXIHDH4v1lV4AZZOSRoUAa+IV5uihcpDGZpMzlvPo9TVWSyLme/uaKaYzsdYggnPubZOuXupnK2uPHEA==",
+  "dgSpecHash": "IJ+A3SJa6zPk+iUNEma6VW6w6udtQGwrcfKQRo1/BXWEwsDwWEY3tAJ1G9Fbr/0VkQcv+al5Sjcfn1y3Mx20aw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Abhishek Adhikari\\source\\repos\\abhishekadhikari23\\desktop-audio-player\\Desktop Audio Player\\Desktop Audio Player\\Desktop Audio Player.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512",
+    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\anglesharp\\0.14.0\\anglesharp.0.14.0.nupkg.sha512",
     "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
-    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512"
+    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512",
+    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
+    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512",
+    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\taglib-sharp-netstandard2.0\\2.1.0\\taglib-sharp-netstandard2.0.2.1.0.nupkg.sha512",
+    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\youtubeexplode\\5.1.6\\youtubeexplode.5.1.6.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'FontAwesome.WPF 4.7.0.9' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "FontAwesome.WPF",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }
