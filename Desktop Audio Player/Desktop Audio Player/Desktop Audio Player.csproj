@@ -5,6 +5,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Desktop_Audio_Player</RootNamespace>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>sairyo_audio_player.ico</ApplicationIcon>
+    <Authors>Abhishek Adhikari; Sandip Murmu</Authors>
+    <Company>Sairyö No Developers</Company>
+    <Product>Sairyö No Player</Product>
+    <Description>The Best Audio Player currently available in the market with this sweet yet minimal UI.
+
+Don't waste time reading this. Start using this product and enjoy your day!!!</Description>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
 
   <ItemGroup>
