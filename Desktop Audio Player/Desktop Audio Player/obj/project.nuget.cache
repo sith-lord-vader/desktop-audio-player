@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "dAbJ6m2SYY+EnBLq2zoWBGSp3e34XjmGzPWCyjTlwZolbD6I7ThsmAaEaf5b/bVBl9KsTys676t/M1reYJ08bw==",
+  "dgSpecHash": "NJw9RkAXIHDH4v1lV4AZZOSRoUAa+IV5uihcpDGZpMzlvPo9TVWSyLme/uaKaYzsdYggnPubZOuXupnK2uPHEA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Abhishek Adhikari\\source\\repos\\abhishekadhikari23\\desktop-audio-player\\Desktop Audio Player\\Desktop Audio Player\\Desktop Audio Player.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512"
+    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\fontawesome.wpf\\4.7.0.9\\fontawesome.wpf.4.7.0.9.nupkg.sha512",
+    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
+    "C:\\Users\\Abhishek Adhikari\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512"
   ],
   "logs": [
     {

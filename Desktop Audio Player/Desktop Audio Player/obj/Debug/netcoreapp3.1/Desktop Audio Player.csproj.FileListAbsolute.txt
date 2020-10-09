@@ -19,3 +19,6 @@ C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\
 C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.genruntimeconfig.cache
 C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\FontAwesome.WPF.dll
 C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\Desktop Audio Player.csproj.CopyComplete
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\Abhishek Adhikari\source\repos\abhishekadhikari23\desktop-audio-player\Desktop Audio Player\Desktop Audio Player\obj\Debug\netcoreapp3.1\App.baml
