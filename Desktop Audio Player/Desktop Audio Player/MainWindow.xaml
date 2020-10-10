@@ -8,12 +8,12 @@
         mc:Ignorable="d"
         Title="Sairyö No Audio Player" Height="300" Width="700" WindowState="Normal" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/sairyo_audio_player.png">
     <Grid>
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right">
-            <Button Style="{DynamicResource MaterialDesignToolButton}" FontSize="15" Click="BT_Click_Win_Min" Margin="2">
-                <materialDesign:PackIcon Kind="WindowMinimize" Height="15" Width="15" Foreground="LightGray"/>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,5,0,0">
+            <Button Style="{DynamicResource MaterialDesignFloatingActionMiniButton}" FontSize="15" Width="20" Height="20" Click="BT_Click_Win_Min" Margin="2">
+                <materialDesign:PackIcon Kind="WindowMinimize" Height="15" Width="15" Foreground="White"/>
             </Button>
-            <Button Style="{DynamicResource MaterialDesignToolButton}" FontSize="15" Click="BT_Click_Win_Close" Margin="2,2,6,2">
-                <materialDesign:PackIcon Kind="WindowClose" Height="15" Width="15" Foreground="LightGray"/>
+            <Button Style="{DynamicResource MaterialDesignFloatingActionMiniButton}" FontSize="15" Width="20" Height="20" Click="BT_Click_Win_Close" Margin="2,2,6,2">
+                <materialDesign:PackIcon Kind="WindowClose" Height="15" Width="15" Foreground="White"/>
             </Button>
         </StackPanel>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
@@ -23,7 +23,7 @@
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
                         <TextBlock Foreground="White" Text="File Name      :" FontSize="22"/>
                         <TextBox x:Name="File_Name" FontSize="22" Width="260" Margin="10,0,0,0"/>
-                        <Button x:Name="open_button" Content="Open" Foreground="white"  Click="BT_Click_Open" Margin="10,0,0,0" Padding="10,0,10,0">
+                        <Button x:Name="open_button" Content="Open" Foreground="white"  Click="BT_Click_Open" Width="60" Margin="10,0,0,0" Padding="10,0,10,0">
                             <Button.Background>
                                 <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                     <GradientStop Color="#12c2e9" Offset="0.0"/>
@@ -38,7 +38,7 @@
                     <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
                         <TextBlock Foreground="White" Text="YouTube URL :" FontSize="22"/>
                         <TextBox x:Name="url_youtube" FontSize="22" Width="260" Margin="10,0,0,0"/>
-                        <Button x:Name="open_button_youtube" Content="Start" Foreground="white"  Click="BT_Click_Open_Youtube" Margin="10,0,0,0" Padding="10,0,10,0">
+                        <Button x:Name="open_button_youtube" Content="Start" Foreground="white" Width="60" Click="BT_Click_Open_Youtube" Margin="10,0,0,0" Padding="10,0,10,0">
                             <Button.Background>
                                 <LinearGradientBrush StartPoint="0,0.5" EndPoint="1,0.5">
                                     <GradientStop Color="#12c2e9" Offset="0.0"/>
@@ -50,8 +50,8 @@
                     </StackPanel>
                 </materialDesign:Card>
             </StackPanel>
-            <StackPanel x:Name="controls" Visibility="Visible" Orientation="Vertical" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,10">
-                <Grid>
+            <StackPanel x:Name="controls" Visibility="Visible" Orientation="Vertical" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+                <Grid Margin="0,0,0,10">
                     <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
                         <TextBlock x:Name="curr_time" Text="--:--:--" Margin="0,0,10,0" FontSize="15" />
                         <Grid>
@@ -59,14 +59,14 @@
                                 <Rectangle Width="485" Stroke="Black" StrokeThickness="2"></Rectangle>
                             </StackPanel>
                             <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
-                                <Slider Width="500" x:Name="slider_timer" Style="{DynamicResource MaterialDesignSlider}" IsMoveToPointEnabled="True"/>
+                                <Slider Width="500" x:Name="slider_timer" Style="{DynamicResource MaterialDesignSlider}" Value="0" IsMoveToPointEnabled="True"/>
                             </StackPanel>
                         </Grid>
                         <TextBlock x:Name="final_time" Text="--:--:--" Margin="10,0,0,0" FontSize="15" />
                     </StackPanel>
                 </Grid>
                 <Grid>
-                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,10">
                         <Button Style="{DynamicResource MaterialDesignFloatingActionMiniDarkButton}" FontSize="22" Click="BT_Click_Reset" Margin="5">
                             <materialDesign:PackIcon Kind="Refresh" Height="35" Width="35" Foreground="White"/>
                         </Button>
@@ -94,9 +94,7 @@
                         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                             <TextBlock x:Name="song_title_xaml" Text="Song Titleasdasdsaddsa" TextAlignment="Center" FontWeight="ExtraBold" FontSize="20" FontFamily="Ink Free" Width="200"></TextBlock>
                             <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
-                                <TextBlock x:Name="song_artist_xaml" Text="Album Artist" TextAlignment="Center" FontWeight="Bold"></TextBlock>
-                                <TextBlock Text=" - " TextAlignment="Center" FontWeight="Bold"></TextBlock>
-                                <TextBlock x:Name="song_album_xaml" Text="Song Album" TextAlignment="Center" FontWeight="Bold"></TextBlock>
+                                <TextBlock x:Name="song_info_xaml" Text="Album Artistsadsasddasdaasdasdss" TextAlignment="Center" FontWeight="Bold" Width="200"></TextBlock>
                             </StackPanel>
                         </StackPanel>
                     </StackPanel>

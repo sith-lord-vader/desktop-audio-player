@@ -36,22 +36,15 @@ namespace Desktop_Audio_Player
         bool is_muted = false;
         bool slider_to_be_updated = false;
         string song_title = "";
-        string song_artist = "";
-        string song_album = "";
+        string song_info = "";
         bool scroll_title = false;
+        bool scroll_info = false;
         YoutubeClient youtube = new YoutubeClient();
         public MainWindow() {
             InitializeComponent();
             file_search.Visibility = Visibility.Visible;
             youtube_search.Visibility = Visibility.Visible;
             controls.Visibility = Visibility.Hidden;
-            LinearGradientBrush myHorizontalGradient = new LinearGradientBrush();
-            myHorizontalGradient.StartPoint = new Point(0,0.5);
-            myHorizontalGradient.EndPoint = new Point(1,0.5);
-            myHorizontalGradient.GradientStops.Add(new GradientStop((Color)ColorConverter.ConvertFromString("#12c2e9"), 0.0));
-            myHorizontalGradient.GradientStops.Add(new GradientStop((Color)ColorConverter.ConvertFromString("#c471ed"), 0.5));
-            myHorizontalGradient.GradientStops.Add(new GradientStop((Color)ColorConverter.ConvertFromString("#f64f59"), 1.0));
-            open_button.Background = myHorizontalGradient;
             MouseDown += Window_MouseDown;
             slider_timer.AddHandler(MouseLeftButtonDownEvent,
                       new MouseButtonEventHandler(slider_pressed),
@@ -76,6 +69,12 @@ namespace Desktop_Audio_Player
             {
                 song_title = song_title.Substring(1, song_title.Length - 1) + song_title.Substring(0, 1);
                 song_title_xaml.Text = song_title.Substring(0, 22);
+            }
+            if (scroll_info)
+            {
+                song_info = song_info.Substring(1, song_info.Length - 1) + song_info.Substring(0, 1);
+                song_info_xaml.Text = song_info.Substring(0, 32);
+                Debug.WriteLine(song_info);
             }
         }
 
@@ -147,7 +146,7 @@ namespace Desktop_Audio_Player
             OpenFileDialog fileDialog = new OpenFileDialog();
             fileDialog.Multiselect = false;
             fileDialog.DefaultExt = ".mp3";
-            fileDialog.Filter = "MP3 File (*.mp3)|*.mp3|FLAC File (*.flac)|*.flac|WAV File (*.wav)|*.wav|M4A [Stop Using This] (*.m4a)|*.m4a";
+            fileDialog.Filter = "All Audio Files|*.mp3;*.flac;*.wav;*m4a|MP3 File (*.mp3)|*.mp3|FLAC File (*.flac)|*.flac|WAV File (*.wav)|*.wav|M4A [Stop Using This] (*.m4a)|*.m4a";
             bool? dialogOk = fileDialog.ShowDialog();
             if (dialogOk == true)
             {
@@ -159,9 +158,7 @@ namespace Desktop_Audio_Player
                 youtube_search.Visibility = Visibility.Hidden;
                 var tfile = TagLib.File.Create(filename);
                 song_title = tfile.Tag.Title;
-                song_artist = tfile.Tag.JoinedPerformers;
-                Debug.WriteLine(song_artist);
-                song_album = tfile.Tag.Album;
+                song_info = tfile.Tag.JoinedPerformers + " - " + tfile.Tag.JoinedPerformers;
                 if (song_title.Length > 22)
                 {
                     scroll_title = true;
@@ -173,8 +170,17 @@ namespace Desktop_Audio_Player
                     scroll_title = false;
                     song_title_xaml.Text = song_title;
                 }
-                song_artist_xaml.Text = song_artist;
-                song_album_xaml.Text = song_album;
+                if (song_info.Length > 32)
+                {
+                    scroll_info = true;
+                    song_info = song_info + "    ";
+                    song_info_xaml.Text = song_info;
+                }
+                else
+                {
+                    scroll_info = false;
+                    song_info_xaml.Text = song_info;
+                }
             }
         }
 
@@ -189,9 +195,7 @@ namespace Desktop_Audio_Player
             file_search.Visibility = Visibility.Hidden;
             youtube_search.Visibility = Visibility.Hidden;
             song_title = video_data.Title;
-            song_artist = video_data.Author;
-            Debug.WriteLine(song_artist);
-            song_album = video_data.UploadDate.ToString("MM/dd/yyyy");
+            song_info = video_data.Author + " - " + video_data.UploadDate.ToString("MM/dd/yyyy");
             if (song_title.Length > 22)
             {
                 scroll_title = true;
@@ -203,8 +207,17 @@ namespace Desktop_Audio_Player
                 scroll_title = false;
                 song_title_xaml.Text = song_title;
             }
-            song_artist_xaml.Text = song_artist;
-            song_album_xaml.Text = song_album;
+            if (song_info.Length > 32)
+            {
+                scroll_info = true;
+                song_info = song_info + "    ";
+                song_info_xaml.Text = song_info;
+            }
+            else
+            {
+                scroll_info = false;
+                song_info_xaml.Text = song_info;
+            }
         }
 
         private void BT_Click_Mute(object sender, RoutedEventArgs e)
@@ -302,6 +315,7 @@ namespace Desktop_Audio_Player
             play_pause_button.Kind = MaterialDesignThemes.Wpf.PackIconKind.Play;
             is_total_time_set = false;
             slider_to_be_updated = false;
+            slider_timer.Value = 0;
         }
     }
 }
