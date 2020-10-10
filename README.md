@@ -1,4 +1,8 @@
 # Sairyö No Player
+[![Maintain|Status](https://img.shields.io/badge/Maintain-This%20Project%20is%20currently%20maintained%20by%20Sairy%C3%B6%20No%20Developers-yellowgreen)](https://github.com/Sairyo-No-Developers/desktop-audio-player)
+![GitHub last commit](https://img.shields.io/github/last-commit/abhishekadhikari23/desktop-audio-player)
+***Important***
+>This project is now completely maintained in the Sairyö No Developers Repository with more developers from our group along-side with me. Checkout the new Repo here [https://github.com/Sairyo-No-Developers/desktop-audio-player](https://github.com/Sairyo-No-Developers/desktop-audio-player).
 
 Sairyö No Player is a modern yet minimal audio player for Windows with a very simple UI for doing what you actually would like to do in an Audio Player.
 
